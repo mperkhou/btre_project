@@ -1,2 +1,5 @@
-{"python.linting.pylintEnabled": true, "python.jediEnabled": false
-}
+//{"python.linting.pylintEnabled": true, "python.jediEnabled": false}
+
+{"python.linting.pylintArgs": [
+    "--load-plugins=pylint_django"
+],}

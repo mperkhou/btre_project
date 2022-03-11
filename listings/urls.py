@@ -1,4 +1,5 @@
 from django.urls import path
+from .models import Listing
 
 from . import views
 
