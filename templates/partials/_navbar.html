@@ -53,9 +53,9 @@
             
             <i class="fas fa-user-circle"></i> 
                 {% if 'dashboard' in request.path %}
-                    Welcome {{ user.first_name }}'s Dashboard</a>
+                    Welcome, {{ user.first_name }} (Dashboard) </a>
                 {% else %}
-                    {{ user.first_name }}'s Dashboard</a>
+                    Go to Dashboard</a>
                 {% endif %}
             </li>
             {% else %}
