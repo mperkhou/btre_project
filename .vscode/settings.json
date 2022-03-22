@@ -2,4 +2,6 @@
 
 {"python.linting.pylintArgs": [
     "--load-plugins=pylint_django"
-],}
+],
+"terminal.integrated.cursorStyle": "line",
+}
