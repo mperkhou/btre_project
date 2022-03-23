@@ -27,13 +27,10 @@
     {% include 'partials/_navbar.html' %}
 
     <!-- Main Content-->
-    {% block content %} 
-    
-    {% endblock %}
+    {% block content %} {% endblock %}
 
     <!-- Footer -->
-    
-    
+    {% include 'partials/_footer.html' %}
 
 
 
@@ -49,5 +46,5 @@
         var gallery = new SimpleLightbox('.photo_gallery a');
     </script> -->
 </body>
-{% include 'partials/_footer.html' %}
+
 </html>
